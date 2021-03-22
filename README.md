@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="tough-growth.surge.sh">
+    <a href="https://tough-growth.surge.sh">
       Demo
     </a>
     <span> | </span>
@@ -37,7 +37,7 @@
 
 ## Overview
 
-![screenshot](src/screenshots/Screenshot_2021-03-22 Reusable Button Component.png)
+![screenshot](https://github.com/jpotvin-ezpz/button-components/blob/main/src/screenshots/Screenshot_2021-03-22%20Reusable%20Button%20Component.png)
 
 - Where can I see your demo?
   I deployed this project using [surge.sh](https://surge.sh/) check them out!
