@@ -87,7 +87,6 @@ $ npm start
 - [Node.js](https://nodejs.org/)
 - [React](https://reactjs.org/)
 - [Sass](https://sass-lang.com)
-- []
 
 ## Contact
 
