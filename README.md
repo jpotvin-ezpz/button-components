@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="tough-growth.surge.sh">
+    <a href="https://tough-growth.surge.sh">
       Demo
     </a>
     <span> | </span>
