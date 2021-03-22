@@ -1,5 +1,8 @@
+$background: #f0ffff;
+$border-color: #3d5afe;
+
 body {
-  background-color: #f0ffff;
+  background-color: $background;
 }
 
 button {
@@ -11,43 +14,44 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-button:hover, button:focus {
-  opacity: 0.5;
-  border: 3px solid rgba(0, 0, 0, 0.4);
-}
-button:disabled {
-  opacity: 0.5;
-  border: inherit;
-  cursor: initial;
+  &:hover,
+  &:focus {
+    opacity: 0.5;
+    border: 3px solid hsla(0, 0%, 0%, 0.4);
+  }
+  &:disabled {
+    opacity: 0.5;
+    border: inherit;
+    cursor: initial;
+  }
 }
 
+//sizes
 .sm {
   width: 5rem;
   height: 1.5rem;
 }
-
 .md {
   width: 6.5rem;
   height: 2rem;
 }
-
 .lg {
   width: 8rem;
   height: 3rem;
 }
 
+//variants
 .outline {
-  background-color: #f0ffff;
-  border: 1px solid #3d5afe;
-  color: #3d5afe;
+  background-color: $background;
+  border: 1px solid $border-color;
+  color: $border-color;
 }
-
 .text {
-  background-color: #f0ffff;
+  background-color: $background;
   box-shadow: none;
 }
 
+//color
 .primary {
   background: #2962ff;
   color: #f0ffff;
@@ -62,26 +66,24 @@ button:disabled {
   background: #d32f2f;
   color: #f0ffff;
 }
-
+//disabledShadow
 button.disabledShadow {
   box-shadow: none;
 }
 
+//gallery
 .gallery {
   display: grid;
   color: #383737;
 }
-
 .gallery-header {
   color: #303030;
 }
-
 .multiple-btns {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
 }
-
 .btn-wrapper {
   margin: 1rem;
 }
@@ -92,10 +94,8 @@ button.disabledShadow {
 
 footer {
   margin-top: 4rem;
+  p {
+    color: darkgrey;
+    text-align: center;
+  }
 }
-footer p {
-  color: darkgrey;
-  text-align: center;
-}
-
-/*# sourceMappingURL=index.css.map */
